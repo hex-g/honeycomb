@@ -1,0 +1,5 @@
+export const blue = '#3742fa'
+export const primary = '#e9724c'
+export const lightgray = '#F5F6F7'
+export const burntSienna = '#e9724c'
+export const rajah = '#f6bd60'
