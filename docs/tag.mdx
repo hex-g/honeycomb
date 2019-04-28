@@ -1,0 +1,40 @@
+---
+name: Tag
+menu: Components
+route: /tag
+---
+
+import { Playground, Props } from 'docz'
+import { Tag } from '../src/components/Tag/Tag'
+
+# Tag
+
+As tags são utilizadas em todas as pubicações da Hive e tem o objetivo de categorizar o assunto da publicação, deixando a busca mais fácil em uma futura consulta, bem como agrupar pubicações com o mesmo mote.
+
+## Properties
+
+<Props of={Tag} />
+
+## Basic usage
+
+<Playground>
+  <Tag scale='small'>Frontend</Tag>
+</Playground>
+
+## With different sizes
+
+<Playground>
+  <Tag scale='small'>Frontend</Tag>
+  <Tag scale='normal'>Frontend</Tag>
+</Playground>
+
+## With different colors
+
+<Playground>
+  <Tag scale='small' background="forestGreen">nodejs</Tag>
+  <Tag scale='small' background="burntSienna">frontend</Tag>
+  <Tag scale='small' background="rajah">backend</Tag>
+  <Tag scale='small' background="persianPink">feedback</Tag>
+  <Tag scale='small' background="royalBlue">css</Tag>
+  <Tag scale='small' background="cinnabar">java</Tag>
+</Playground>
